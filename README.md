@@ -54,13 +54,16 @@ Implemented sentiment analysis using natural language processing techniques to c
 
 
 ## Education
-#### Master of Science (MS) in Data Science                                    May 2023
-Lewis University, Romeoville, IL.                     	                  GPA: 3.64/4.0
+#### Master of Science (MS) in Data Science                                    
+Lewis University, Romeoville, IL.
+May 2023
+GPA: 3.64/4.0
 Concentration: Cognitive Thinking and Prescriptive Analytics
 Creating Predictive and Prescriptive models filtering through certain stages like data processing, data mining, classifying the data, and simulation of final output with cost function integration. statistics, computer programming, and fundamentals of mathematics
 
-#### Bachelor of Technology (BS) in Computer Science                           Aug 2018
-Mahatma Gandhi University, Kerala, India    
+#### Bachelor of Technology (BS) in Computer Science                           
+Mahatma Gandhi University, Kerala, India  
+Aug 2018
 Introduction to fundamentals like Data structures, Object-oriented Programming, Computer networks, Languages and Compilers, and Databases. 
 
 

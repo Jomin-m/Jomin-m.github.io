@@ -51,15 +51,15 @@ Implemented sentiment analysis using natural language processing techniques to c
 • Collaborated with a team of data analysts to leverage Power-BI for data visualization and reporting purposes, contributing to the organization's data-driven decision-making processes. 
 • Developed interactive dashboards and reports using Power-BI, enabling stakeholders to easily access and analyze key performance indicators, resulting in improved visibility and informed decision-making. 
 • Conducted data cleaning, transformation, and modeling tasks to ensure data accuracy and consistency, enhancing the quality and reliability of the reports generated
-![image](https://github.com/Jomin-m/Jomin-m.github.io/assets/44956922/cfb49b5e-ca49-43b8-b2af-74bcfc451964)
 
 
 ## Education
-Master of Science (MS) in Data Science                                    May 2023
+#### Master of Science (MS) in Data Science                                    May 2023
 Lewis University, Romeoville, IL.                     	                  GPA: 3.64/4.0
 Concentration: Cognitive Thinking and Prescriptive Analytics
 Creating Predictive and Prescriptive models filtering through certain stages like data processing, data mining, classifying the data, and simulation of final output with cost function integration. statistics, computer programming, and fundamentals of mathematics
-Bachelor of Technology (BS) in Computer Science                           Aug 2018
+
+#### Bachelor of Technology (BS) in Computer Science                           Aug 2018
 Mahatma Gandhi University, Kerala, India    
 Introduction to fundamentals like Data structures, Object-oriented Programming, Computer networks, Languages and Compilers, and Databases. 
 

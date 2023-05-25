@@ -30,10 +30,10 @@ Matplotlib, Scipy, Numpy, Pandas, Seaborn, PowerBI, Tableau, SAS, Spark, Scikit 
 
 ## Projects
 ### Project 1: Prescriptive Analytics for Formula One Racing Data
-•	Developing a regression model to predict the qualifying time in Formula One racing using historical data from the sport. 
-•	Cleaning, preprocessing, and feature engineering the data to prepare it for modeling. 
-•	Using techniques such as Random Forest, gradient boosting, and LSTM to create the predictive model based on qualifying_time. 
-•	Performing Prescriptive Analytics (Sensitivity Analysis) to identify the features that most have the chance to impact the output and remodeling based on that.
+-	Developing a regression model to predict the qualifying time in Formula One racing using historical data from the sport. 
+-	Cleaning, preprocessing, and feature engineering the data to prepare it for modeling. 
+-	Using techniques such as Random Forest, gradient boosting, and LSTM to create the predictive model based on qualifying_time. 
+-	Performing Prescriptive Analytics (Sensitivity Analysis) to identify the features that most have the chance to impact the output and remodeling based on that.
 
 ### Project 2: Sentiment Analysis of Twitter Data
 Implemented sentiment analysis using natural language processing techniques to classify tweets as positive, negative, or neutral. Built a web application to visualize the sentiment trends.
@@ -42,15 +42,15 @@ Implemented sentiment analysis using natural language processing techniques to c
 ## Experience
 ### Data Analyst – AI (INTERN)
 #### Mytectra
-•	As part of a team of 5 analysts, I demonstrated my flexibility and innovation by identifying, analyzing, and interpreting trends and patterns in complex datasets, developing a new algorithm that improved response accuracy by 20%. My contribution to the algorithm development process saved the team 5 hours of manual work per week.
-•	In addition to my analytical work, I showed my energy and enthusiasm by streamlining our data entry process, reducing errors by 25%. I also created detailed statistics to compare the new and old models, leading to a 10% improvement in efficiency.
-•	Through my work in filtering correlations and visualizing observations, I used my innovative approach to identify key insights that informed our strategy and led to a 15% increase in client satisfaction.
+-	As part of a team of 5 analysts, I demonstrated my flexibility and innovation by identifying, analyzing, and interpreting trends and patterns in complex datasets, developing a new algorithm that improved response accuracy by 20%. My contribution to the algorithm development process saved the team 5 hours of manual work per week.
+-	In addition to my analytical work, I showed my energy and enthusiasm by streamlining our data entry process, reducing errors by 25%. I also created detailed statistics to compare the new and old models, leading to a 10% improvement in efficiency.
+-	Through my work in filtering correlations and visualizing observations, I used my innovative approach to identify key insights that informed our strategy and led to a 15% increase in client satisfaction.
 
 ### Data Analyst – PowerBI (INTERN)
 #### Vistas Foundation 
-• Collaborated with a team of data analysts to leverage Power-BI for data visualization and reporting purposes, contributing to the organization's data-driven decision-making processes. 
-• Developed interactive dashboards and reports using Power-BI, enabling stakeholders to easily access and analyze key performance indicators, resulting in improved visibility and informed decision-making. 
-• Conducted data cleaning, transformation, and modeling tasks to ensure data accuracy and consistency, enhancing the quality and reliability of the reports generated
+- Collaborated with a team of data analysts to leverage Power-BI for data visualization and reporting purposes, contributing to the organization's data-driven decision-making processes. 
+- Developed interactive dashboards and reports using Power-BI, enabling stakeholders to easily access and analyze key performance indicators, resulting in improved visibility and informed decision-making. 
+- Conducted data cleaning, transformation, and modeling tasks to ensure data accuracy and consistency, enhancing the quality and reliability of the reports generated
 
 
 ## Education

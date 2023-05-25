@@ -1,6 +1,3 @@
-![Uploading PXL_20230402_170135891.PORTRAIT (2).jpg…]()
-
-
 # Hi there, I'm Jomin Mathew 👋
 
 ## About Me

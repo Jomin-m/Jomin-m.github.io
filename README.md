@@ -36,8 +36,10 @@ Matplotlib, Scipy, Numpy, Pandas, Seaborn, PowerBI, Tableau, SAS, Spark, Scikit 
 -	Performing Prescriptive Analytics (Sensitivity Analysis) to identify the features that most have the chance to impact the output and remodeling based on that.
 
 ### Project 2: Sentiment Analysis of Twitter Data
-Implemented sentiment analysis using natural language processing techniques to classify tweets as positive, negative, or neutral. Built a web application to visualize the sentiment trends.
-
+- Preprocessing: Clean and preprocess the collected tweets to remove noise, such as URLs, hashtags, mentions, and special characters. This step may also include tokenization, lowercasing, and removing stopwords.
+Feature extraction: Convert the preprocessed text into numerical or categorical features that can be used as input for machine learning models. Common feature extraction techniques for sentiment analysis include bag-of-words, TF-IDF (Term Frequency-Inverse Document Frequency), and word embeddings (e.g., Word2Vec).
+- Labeling: Prepare a labeled dataset where each tweet is manually annotated with its corresponding sentiment label (positive, negative, or neutral). This labeled dataset will serve as the ground truth for training and evaluating the sentiment analysis model.
+- Model training: Use the labeled dataset to train a sentiment analysis model. machine learning algorithms used for sentiment analysis include Naive Bayes, Support Vector Machines (SVM), Logistic Regression, and more advanced techniques like Recurrent Neural Networks (RNNs)
 
 ## Experience
 ### Data Analyst – AI (INTERN)

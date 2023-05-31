@@ -330,7 +330,7 @@ With a solid foundation in these technical skills, I have successfully applied t
     </section><!-- End Contact Section -->
   
   
-  <!-- ... Rest of your HTML code ... -->
+<!-- ... Rest of your HTML code ... -->
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
@@ -340,26 +340,54 @@ With a solid foundation in these technical skills, I have successfully applied t
 
       var form = $(this);
       var url = form.attr('action');
+      var message = form.find('textarea[name="message"]').val();
 
-      // Send the AJAX request
+      // Generate response using ChatGPT API
+      generateChatGPTResponse(message);
+    });
+
+    function generateChatGPTResponse(message) {
+      var api_key = 'YOUR_API_KEY'; // Replace with your actual API key
+      var endpoint = 'https://api.openai.com/v1/chat/completions';
+
+      var data = {
+        'messages': [
+          { 'role': 'system', 'content': 'You' },
+          { 'role': 'user', 'content': message }
+        ],
+        'max_tokens': 50,
+        'temperature': 0.7,
+        'n': 1
+      };
+
+      var headers = {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer ' + api_key
+      };
+
+      // Send the API request
       $.ajax({
         type: 'POST',
-        url: url,
-        data: form.serialize(),
+        url: endpoint,
+        data: JSON.stringify(data),
+        headers: headers,
         dataType: 'json',
-        method: 'POST', // Explicitly set the method to POST
         success: function(response) {
-          // Update the sent-message element with the ChatGPT response
-          $('.sent-message').text(response.response);
+          var chatGPTResponse = response.choices[0].message.content;
+          displayChatGPTResponse(chatGPTResponse);
         },
         error: function() {
-          // Display an error message if the request fails
           $('.sent-message').text('An error occurred. Please try again.');
         }
       });
-    });
+    }
+
+    function displayChatGPTResponse(response) {
+      $('.sent-message').text(response);
+    }
   });
 </script>
+
 
 
 

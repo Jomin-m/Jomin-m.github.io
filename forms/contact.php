@@ -36,7 +36,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $message = $_POST['message'];
 
     // Generate response using ChatGPT API
-    $response = callChatGPTAPI($message);
+    $prompt = "Name: $name\nSubject: $subject\nMessage: $message";
+    $response = callChatGPTAPI($prompt);
 
     // Predefined details to include in the response
     $predefinedDetails = "My Contact Details:\n";

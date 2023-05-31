@@ -330,7 +330,9 @@ With a solid foundation in these technical skills, I have successfully applied t
     </section><!-- End Contact Section -->
   
   
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- ... Rest of your HTML code ... -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
   $(document).ready(function() {
     $('.php-email-form').submit(function(e) {
@@ -345,6 +347,7 @@ With a solid foundation in these technical skills, I have successfully applied t
         url: url,
         data: form.serialize(),
         dataType: 'json',
+        method: 'POST', // Explicitly set the method to POST
         success: function(response) {
           // Update the sent-message element with the ChatGPT response
           $('.sent-message').text(response.response);
@@ -357,6 +360,7 @@ With a solid foundation in these technical skills, I have successfully applied t
     });
   });
 </script>
+
 
 
 

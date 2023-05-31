@@ -325,6 +325,43 @@ With a solid foundation in these technical skills, I have successfully applied t
 
       </div>
     </section><!-- End Contact Section -->
+  
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('.php-email-form').submit(function(e) {
+      e.preventDefault(); // Prevent form submission
+
+      var form = $(this);
+      var url = form.attr('action');
+
+      // Send the AJAX request
+      $.ajax({
+        type: 'POST',
+        url: url,
+        data: form.serialize(),
+        dataType: 'json',
+        success: function(response) {
+          // Update the sent-message element with the ChatGPT response
+          $('.sent-message').text(response.response);
+        },
+        error: function() {
+          // Display an error message if the request fails
+          $('.sent-message').text('An error occurred. Please try again.');
+        }
+      });
+    });
+  });
+</script>
+With this code, when the form is submitted, an AJAX request is sent to contact.php. The response from ChatGPT is returned as a JSON object and then used to update the <div> element with the class sent-message on your webpage.
+
+
+
+
+
+
+
 
   </main><!-- End #main -->
 
